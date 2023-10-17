@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+/* nav bar lodo */
+.logo {
+    width: 8%;
+}
+
+/* nav */
+nav {
+    margin: 20px;
+    margin-right: 10%;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    float: right;
+}
+
+nav a:after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.55s;
+
+}
+
+/* hearger */
+.heading {
+    margin: 10%;
+    margin-bottom: 150x;
+}
+
+.heading h1 {
+    font-size: 50px;
+}
+
+.heading p {
+    font-size: 30px;
+    color: rgba(141, 143, 145, 0.438);
+    padding-bottom: 20px;
+}
+
+.heading a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(17, 141, 23);
+    padding: 8px;
+    border: 2px;
+    border-radius: 4px;
+}
+
+.images {
+    clip-path: circle(43% at 50% 45%);
+}
+
+div .images {
+    width: 25%;
+    margin-left: 58%;
+    margin-top: -182px;
+    position: absolute;
+}
+
+/* .about */
+.about h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.about p {
+    margin: 7px 300px 0px 300px;
+    text-align: justify;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* what i do */
+.what h1 {
+    text-align: center;
+}
+.what{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card{
+    background-color: rgba(159, 161, 163, 0.171);
+    width: 20%;
+    padding: 50px;
+    overflow: hidden;
+    margin: 20px;
+    border: 1px solid rgba(193, 230, 219, 0.258);
+    border-radius: 2%;
+}
+.card h2{
+    color: rgba(120, 123, 123, 0.656);
+}
+.skills{
+    text-align: center;
+    margin-top: 20px;
+}  
+.skill{
+    background-color: rgba(159, 161, 163, 0.171);
+    width: 65%;
+    padding: 30px;
+    overflow: hidden;
+    margin: 28px 0px 0px 329px;
+    border: 1px solid rgba(211, 211, 211, 0.335);
+    border-radius: 4px;
+}
+.skills_card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    display: inline-block;
+}
+.skills_card h2{
+    font-size: 35px;
+    font-weight: 900;
+    color: lightgray;
+    text-align: center;
+    margin:-51px -7px 16px 182px;
+}
+.skills_card p{
+    font-size: 25px;
+    color: rgba(8, 205, 73, 0.901);
+    text-align: center;
+    margin:-3px -7px 16px 182px;
+}
+.massage{
+    text-align: center;
+    margin: 30px;
+}
+input[type="first name"],
+input[type="last name"],
+input[type="email"],
+input[type="number"]{
+    width: 26%;
+    margin: 20px 0px 17px 13px;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+    background-color: rgba(193, 200, 206, 0);
+    color: white;
+}
+textarea{
+    width: 53%;
+    margin: 3px 0px 17px 13px;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+    background-color: rgba(193, 200, 206, 0);
+    color: white;
+}
+input[type="submit"]
+{
+    background-color: rgba(11, 134, 11, 0.741);
+    color: white;
+    padding: 8px;
+    border: 1px solid rgba(211, 211, 211, 0.336);
+    border-radius: 4px;
+}
+footer{
+    background-color: rgba(119, 110, 110, 0.374);
+    padding: 40px;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+footer span{
+    color: #ff004f;
+    font-size: 28px;
+    padding: 8px
+}
+
+
+
